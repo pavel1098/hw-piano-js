@@ -26,11 +26,11 @@ function playByKey(element) {
  	if(event.keyCode === letterKey) {
  		element.classList.add('active');
 		playSound(element.childNodes[3]);
-		document.addEventListener('keyup', function() {
- 			element.classList.remove('active');
- 		})
  	}
  	});
+	document.addEventListener('keyup', function() {
+ 			element.classList.remove('active');
+ 		});
 }
 
 
