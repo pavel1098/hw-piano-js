@@ -11,10 +11,10 @@ function playByKlick(element) {
  	element.addEventListener('mousedown', function() {
  		playSound(element.childNodes[3]);
  		element.classList.add('active');
- 		element.addEventListener('mouseup', function() {
+ 	});
+	element.addEventListener('mouseup', function() {
  		element.classList.remove('active');
  		});
- 	}); 	
  }
 
 
