@@ -32,6 +32,6 @@ body {
 .active {
 	width: 50px;
 	height: 250px;
-	transition: 0.1s;
+	transition: 0.05s;
 	box-shadow: 0 0 15px lime;
 }
